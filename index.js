@@ -1,6 +1,6 @@
 var express = require("express");
 var app = express();
-var port = process.env.PORT || 3700;
+var port = process.env.PORT || 80;
 var cons = require("consolidate");
 
 // Set view of '/' end point
